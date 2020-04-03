@@ -1,0 +1,167 @@
+@font-face{
+    src: url(../fontstyle/SweetHipster-PzlE.ttf);
+    font-family: 'SweetHipster';
+}
+@font-face{
+    src: url(../fontstyle/Countryside-YdKj.ttf);
+    font-family: 'countryside';
+
+}
+@font-face{
+    src: url(../fontstyle/Tomatoes-O8L8.ttf);
+    font-family: 'tomatoes';
+}
+@font-face{
+    src: url(../fontstyle/VeganStylePersonalUse-5Y58.ttf);
+    font-family: 'vegan';
+}
+@font-face{
+    src: url(../fontstyle/QuiteMagicalRegular-8VA2.ttf);
+    font-family: 'magic';
+}
+*{
+    padding: 0;
+    margin:0;
+   
+}
+section{
+    height:70vh;
+    
+}
+h1{
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top:35%;
+    transform: translateY(-50%);
+    width:100%;
+    text-align: center;
+    font-size: 90px;
+    font-family:magic; 
+   
+    font-weight: bolder;
+    inline-size: 3;
+    letter-spacing: 0.4rem;
+    font-family: serif;
+    text-shadow: 4px 4px rgb(233, 191, 114);
+    
+   
+
+
+}
+.st{
+    color: rgb(189, 121, 53);
+}
+.yourown{
+    color:white;
+}
+.be{
+    color: #009ADA;
+    
+   
+}   
+.owns{
+    color: red;
+    
+} 
+.st {border-style:  solid;}
+.st{
+    border-width:7px;
+   background-image: url(../8WbS.gif);
+    background-position: 2rem;
+   
+ 
+   
+   
+}
+
+h1 span{
+   
+    
+    animation: animate 1.5s linear forwards;
+}
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(0);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+.mute{
+    width:220%;
+    position: fixed;
+    height: 1000px;
+    opacity:0.4;
+}
+body{
+    background-image: url(../motorbg.jpg);
+    background-repeat: no-repeat;
+    height: 50%;
+    background-size: cover;
+
+}
+.container{
+   text-align: center;
+    opacity: 0.6;
+    
+}
+
+.own{
+    font-size: 60px;
+    color: rgb(197, 133, 14);
+    width: 5in;
+    font-weight: bolder;
+    padding-left: 70px;
+    margin-top: 40px;
+    line-height: 25px;
+    font-family: 'tomatoes';
+}
+.enter{
+    background-image:linear-gradient(blue,white);
+    border: none;
+    color: black;   
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    top:55%;
+    width: 5%;
+    position: absolute;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 16px 30px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.8;
+    
+
+}
+.enter{
+    transition-duration: 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
+
